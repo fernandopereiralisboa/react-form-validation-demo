@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 
-import Form from './Form.js';
+import LoginForm from './LoginForm/LoginForm.jsx';
 
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <Form />
+      <LoginForm />
     );
   }
 }
